@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: teste-14-location
+  description: Location to import all teste-14 catalog components
+spec:
+  targets:
+    - ./.platform/*.yaml
